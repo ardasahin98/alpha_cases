@@ -34,7 +34,7 @@ function renderPage(index) {
 
         questionDiv.innerHTML = `
             <div class="question-header">
-                <h2>Question ${question.questionNumber}/28</h2>
+                <h2>Question ${question.questionNumber}/27</h2>
             </div>
             <div class="navigation-buttons" style="margin-top:-10px">
                 <button onclick="saveAnswer(${question.questionNumber}); navigatePage(${index - 1})" ${index === 0 ? 'disabled' : ''}>Back</button>
